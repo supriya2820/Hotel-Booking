@@ -11,7 +11,7 @@ const app = express()
 app.use(cors()) //ENABLE CROSS-ORIGIN RESOURCE SHARING
 
 //MIDDLEWARE
-app.use(express.json)
+app.use(express.json())
 app.use(clerkMiddleware())
 
 //API TO LISTEN TO CLERK WEBHOOKS
