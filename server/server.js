@@ -36,19 +36,6 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// TEMP: Don't connect DB or use Clerk
-// import connectDB from "./configs/db.js";
-// connectDB();
-
-// import { clerkMiddleware } from '@clerk/express';
-// app.use(clerkMiddleware());
-
-// TEMP: Skip Clerk and DB routes
-// import clerkWebhooks from "./controllers/clerkWebhooks.js";
-// import userRouter from "./routes/userRoutes.js";
-// app.use("/api/clerk", clerkWebhooks);
-// app.use("/api/user", userRouter);
-
 app.get("/", (req, res) => res.send("API is Working"));
 
 export default app;
