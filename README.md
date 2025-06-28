@@ -91,6 +91,6 @@ npm start
 - [ ] Improve error handling and validations
 - [ ] Add user profile settings
 
-### 🔗 Live Demo
+## 🔗 Live Demo
 Link will be added after deployment
 
