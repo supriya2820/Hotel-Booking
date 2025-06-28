@@ -43,48 +43,48 @@ Includes user booking, Clerk-based authentication, admin dashboard, and hotel/ro
 
 ## 🧑‍💻 Getting Started
 
-### 1. Clone the Repository
+## 1. Clone the Repository
 
 git clone https://github.com/supriya2820/Hotel-Booking.git
 
-### 2.Install Dependencies
+## 2.Install Dependencies
 
-# Frontend
+### Frontend
 cd client
 npm install
 
-# Backend
+### Backend
 cd ../server
 npm install
 
-### 3. Configure Environment Variables
+## 3. Configure Environment Variables
 
-# Create a .env file inside the /server folder:
+### Create a .env file inside the /server folder:
 MONGO_URL=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 PORT=5000
 
-# If you're using Clerk, also create a .env file in the /client folder:
+### If you're using Clerk, also create a .env file in the /client folder:
 VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 
-### 4. Run the Development Servers
+## 4. Run the Development Servers
 
-# Start the backend
+### Start the backend
 cd server
 npm run dev
 
-# Open a new terminal for frontend:
-# Start the frontend
+### Open a new terminal for frontend:
+### Start the frontend
 cd client
 npm start
 
-# 🌐 Deployment
+## 🌐 Deployment
 🚀 Frontend: Vercel
 🛠️ Backend: Render / Railway
 💾 Database: MongoDB Atlas
 
-### To Do (Since Backend is Incomplete)
-## 🚧 Work In Progress
+## To Do (Since Backend is Incomplete)
+### 🚧 Work In Progress
 
 - [ ] Complete backend API routes
 - [ ] Implement admin hotel/room control
